@@ -1,0 +1,17 @@
+{
+  "name": "shortly",
+  "version": "1.0.0",
+  "description": "Shortly landing page from [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./css/style.css"
+  },
+  "author": "Charles Mariga",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.1.8"
+  }
+}
