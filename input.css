@@ -12,3 +12,32 @@
   filter: invert(79%) sepia(61%) saturate(646%) hue-rotate(130deg)
     brightness(89%) contrast(85%);
 }
+
+/* Hamburger menu */
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  background: #000;
+  width: 24px;
+  height: 2px;
+  display: block;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.open {
+  transform: rotate(90deg);
+  gap: 0;
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
